@@ -4,6 +4,8 @@ title: Triangle Bike Camping
 
 Bicycling and camping go together like peanut butter and jelly. So strap your tent or hammock on your bike, and let's go sleep in the woods! All levels of fitness and camping experience welcome.
 
+**Upcoming events are listed on both [Meetup](https://www.meetup.com/triangle-bike-camping/) and [Mobilizon](http://events.nixnet.services/@trianglebikecamping). The latter does not require an account to RSVP to events.**
+
 You should join us if you enjoy:
 
 -   riding your bike
