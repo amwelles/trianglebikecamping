@@ -1,15 +1,16 @@
-name: Jacky Zhao
+name: Triangle Bike Camping
 enableToc: true
 openToc: false
-enableLinkPreview: true
+enableLinkPreview: false
 enableLatex: true
 description:
-  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
-  Wikilink support, backlinks, local graph, tags, and link previews.
+  Bicycling and camping go together like peanut butter and jelly.
+  So strap your tent or hammock on your bike, and let's go sleep
+  in the woods!
 page_title:
-  "🪴 Quartz 3.2"
+  "Triangle Bike Camping"
 links:
-  - link_name: Twitter
-    link: https://twitter.com/_jzhao
-  - link_name: Github
-    link: https://github.com/jackyzha0
+  - link_name: Meetup
+    link: https://www.meetup.com/triangle-bike-camping/
+  - link_name: Mobilizon
+    link: http://events.nixnet.services/@trianglebikecamping
