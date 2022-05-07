@@ -28,4 +28,5 @@ These events aren't officially sanctioned by TBC, but you may still enjoy them. 
 
 ## Resources
 
-- [bikepacking.com](https://bikepacking.com): information about cycling and camping
+- [Bikepacking.com](https://bikepacking.com): information about cycling and camping
+- [Packing Lists](Packing%20Lists.md)
