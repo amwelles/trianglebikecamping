@@ -1,0 +1,35 @@
+:root {
+	--accent: #09e;
+	--accent-hover: #06c;
+
+	--fc-button-bg-color: var(--accent);
+	--fc-button-border-color: var(--accent);
+	--fc-button-hover-bg-color: var(--accent-hover);
+	--fc-button-hover-border-color: var(--accent-hover);
+	--fc-button-active-bg-color: var(--accent-hover);
+	--fc-button-active-border-color: var(--accent-hover);
+
+	font-family: system-ui, sans-serif;
+	font-size: 1.25rem;
+	line-height: 1.4;
+}
+
+body {
+	margin: 2rem auto;
+	padding: 0;
+	width: calc(100% - 2rem);
+	max-width: 50em;
+}
+
+a[href] {
+	color: var(--accent);
+}
+
+a[href]:hover {
+	color: var(--accent-hover);
+}
+
+.fc-event-time,
+.fc-daygrid-event:not(.fc-daygrid-block-event) .fc-event-title {
+	color: black;
+}

@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Triangle Bike Camping</title>
+	<link rel="stylesheet" href="style.css">
     <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js'></script>
     <script>
 
@@ -11,6 +12,11 @@
         var calendarEl = document.getElementById('calendar');
         var calendar = new FullCalendar.Calendar(calendarEl, {
 			initialView: 'dayGridMonth',
+			headerToolbar: {
+				start: 'dayGridMonth,listMonth',
+				center: 'title',
+				end: 'prev,today,next'
+			},
 			events: [
 				{
 					id: 'dec-mg',
@@ -27,6 +33,13 @@
 					url: 'https://buytickets.at/trianglebikecamping/1068381'
 				},
 				{
+					id: 'att-cruise',
+					title: 'Cruise: American Tobacco Trail',
+					start: '2024-01-01T11:00:00',
+					end: '2024-01-01T14:00:00',
+					url: 'https://www.tickettailor.com/events/trianglebikecamping/1069316?'
+				},
+				{
 					id: 'weekly-cruise-2',
 					title: 'Cruise: Bi-weekly Social Ride',
 					start: '2024-01-10T18:00:00',
@@ -34,13 +47,50 @@
 					url: 'https://buytickets.at/trianglebikecamping/1068381'
 				},
 				{
-					id: 'att-cruise',
-					title: 'Cruise: American Tobacco Trail',
-					start: '2024-01-01T11:00:00',
-					end: '2024-01-01T14:00:00',
-					url: 'https://www.tickettailor.com/events/trianglebikecamping/1069316?'
+					id: 'weekly-cruise-3',
+					title: 'Cruise: Bi-weekly Social Ride',
+					start: '2024-01-24T18:00:00',
+					end: '2024-01-24T20:00:00',
+					url: 'https://buytickets.at/trianglebikecamping/1068381'
+				},
+				{
+					id: 'weekly-cruise-4',
+					title: 'Cruise: Bi-weekly Social Ride',
+					start: '2024-02-07T18:00:00',
+					end: '2024-02-07T20:00:00',
+					url: 'https://buytickets.at/trianglebikecamping/1068381'
+				},
+				{
+					id: 'weekly-cruise-5',
+					title: 'Cruise: Bi-weekly Social Ride',
+					start: '2024-02-21T18:00:00',
+					end: '2024-02-21T20:00:00',
+					url: 'https://buytickets.at/trianglebikecamping/1068381'
+				},
+				{
+					id: 'coastal',
+					title: 'Coastal Ride 2024',
+					start: '2024-04-26',
+					end: '2024-04-28',
+					url: 'https://ncsports.org/event/cyclenc_coastal_ride/'
+				},
+				{
+					id: 'ragbrai',
+					title: 'RAGBRAI 2024',
+					start: '2024-07-20',
+					end: '2024-07-27',
+					url: 'https://ragbrai.com'
 				}
-			]
+			],
+			eventClick: function(info) {
+				info.jsEvent.preventDefault(); // don't let the browser navigate
+
+				if (info.event.url) {
+				window.open(info.event.url);
+				}
+			},
+			eventColor: '#09e',
+			eventTextColor: '#fff'
         });
         calendar.render();
       });
@@ -53,7 +103,7 @@
 
 	<ul>
 		<li>Join the <a href="https://groups.io/g/trianglebikecamping">email group</a> for updates</li>
-		<li>See our <a href="https://www.tickettailor.com/events/trianglebikecamping">upcoming events</a></li>
+		<li>RSVP to <a href="https://www.tickettailor.com/events/trianglebikecamping">upcoming events</a></li>
 	</ul>
 
 	<div id="calendar"></div>
