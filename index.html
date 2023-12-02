@@ -5,17 +5,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Triangle Bike Camping</title>
     <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js'></script>
-    <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@6.1.10/index.global.min.js'></script>
     <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/icalendar@6.1.10/index.global.min.js'></script>
     <script>
 
       document.addEventListener('DOMContentLoaded', function() {
         var calendarEl = document.getElementById('calendar');
         var calendar = new FullCalendar.Calendar(calendarEl, {
-			plugins: [dayGridPlugin, iCalendarPlugin],
 			initialView: 'dayGridMonth',
 			events: {
-				url: 'https://user.fm/calendar/v1-b7dba231c10196cd1a992a98f81fca30/triangle%20bike%20camping.ics',
+				url: 'https://www.trianglebikecamping.club/triangle%20bike%20camping.ics',
 				format: 'ics'
 			}
         });
