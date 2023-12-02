@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Triangle Bike Camping</title>
-    <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/icalendar@6.1.10/index.global.min.js'></script>
     <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js'></script>
     <script>
 
@@ -12,10 +11,14 @@
         var calendarEl = document.getElementById('calendar');
         var calendar = new FullCalendar.Calendar(calendarEl, {
 			initialView: 'dayGridMonth',
-			events: {
-				url: 'https://www.trianglebikecamping.club/triangle%20bike%20camping.ics',
-				format: 'ics'
-			}
+			events: [
+				{
+					id: 'dec-mg',
+					title: 'Meet & Greet',
+					start: '2023-12-01T16:00:00',
+					end: '2023-12-01T18:00:00'
+				}
+			]
         });
         calendar.render();
       });
