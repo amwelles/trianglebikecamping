@@ -17,8 +17,21 @@
         var calendarEl = document.getElementById('calendar');
         var calendar = new FullCalendar.Calendar(calendarEl, {
 			initialView: 'dayGridMonth',
+			customButtons: {
+				iCalLink: {
+					text: 'subscribe',
+					click: function() {
+						navigator.clipboard.writeText('https://user.fm/calendar/v1-b7dba231c10196cd1a992a98f81fca30/triangle%20bike%20camping.ics').then(
+							() => {
+								alert('.ical URL copied! Subscribe in your favorite calendar app.');
+							}
+						);
+					},
+					hint: 'Copy ICS URL to clipboard'
+				}
+			},
 			headerToolbar: {
-				start: 'dayGridMonth,listMonth',
+				start: 'dayGridMonth,listMonth iCalLink',
 				center: 'title',
 				end: 'prev,today,next'
 			},
