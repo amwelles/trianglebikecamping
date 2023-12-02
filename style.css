@@ -33,3 +33,9 @@ a[href]:hover {
 .fc-daygrid-event:not(.fc-daygrid-block-event) .fc-event-title {
 	color: black;
 }
+
+hr.spacer {
+	border: 0;
+	background: transparent;
+	margin-block: 1rem;
+}
