@@ -92,6 +92,13 @@ document.addEventListener('DOMContentLoaded', function() {
 				url: 'https://ncsports.org/event/cyclenc_coastal_ride/'
 			},
 			{
+				id: 'may11umstead',
+				title: 'Campout: Umstead',
+				start: '2024-05-11T14:00:00',
+				end: '2024-05-12T11:00:00',
+				url: 'https://www.tickettailor.com/events/trianglebikecamping/1110939'
+			},
+			{
 				id: 'ragbrai',
 				title: 'RAGBRAI 2024',
 				start: '2024-07-20',
