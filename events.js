@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			},
 			{
 				id: 'weekly-cruise-3',
-				title: 'Cruise: Bi-weekly Social Ride',
+				title: '[canceled] Cruise: Bi-weekly Social Ride',
 				start: '2024-01-24T17:30:00',
 				end: '2024-01-24T19:30:00',
 				url: 'https://buytickets.at/trianglebikecamping/1068381'
