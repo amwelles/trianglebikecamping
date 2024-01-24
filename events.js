@@ -57,6 +57,13 @@ document.addEventListener('DOMContentLoaded', function() {
 				url: 'https://buytickets.at/trianglebikecamping/1068381'
 			},
 			{
+				id: 'cruise-rtc-occp',
+				title: 'Cruise: Regional Transit Center to Oak City Cycling',
+				start: '2024-01-29T16:00:00',
+				end: '2024-01-29T21:00:00',
+				url: 'https://buytickets.at/trianglebikecamping/1129836'
+			},
+			{
 				id: 'weekly-cruise-4',
 				title: 'Cruise: Bi-weekly Social Ride',
 				start: '2024-02-07T17:30:00',
