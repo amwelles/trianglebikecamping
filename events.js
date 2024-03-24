@@ -22,48 +22,6 @@ document.addEventListener('DOMContentLoaded', function() {
 		},
 		events: [
 			{
-				id: 'weekly-cruise-1',
-				title: 'Cruise: Bi-weekly Social Ride',
-				start: '2023-12-13T17:30:00',
-				end: '2023-12-13T19:30:00',
-				url: 'https://buytickets.at/trianglebikecamping/1068381'
-			},
-			{
-				id: 'att-cruise',
-				title: 'Cruise: American Tobacco Trail',
-				start: '2024-01-01T11:00:00',
-				end: '2024-01-01T14:00:00',
-				url: 'https://www.tickettailor.com/events/trianglebikecamping/1069316?'
-			},
-			{
-				id: 'jan-mgp',
-				title: 'Meet, Greet, and Plan',
-				start: '2024-01-06T16:00:00',
-				end: '2024-01-06T18:00:00',
-				url: 'https://buytickets.at/trianglebikecamping/1084543'
-			},
-			{
-				id: 'weekly-cruise-2',
-				title: 'Cruise: Bi-weekly Social Ride',
-				start: '2024-01-10T17:30:00',
-				end: '2024-01-10T19:30:00',
-				url: 'https://buytickets.at/trianglebikecamping/1068381'
-			},
-			{
-				id: 'weekly-cruise-3',
-				title: '[canceled] Cruise: Bi-weekly Social Ride',
-				start: '2024-01-24T17:30:00',
-				end: '2024-01-24T19:30:00',
-				url: 'https://buytickets.at/trianglebikecamping/1068381'
-			},
-			{
-				id: 'cruise-rtc-occp',
-				title: 'Cruise: Regional Transit Center to Oak City Cycling',
-				start: '2024-01-29T16:00:00',
-				end: '2024-01-29T21:00:00',
-				url: 'https://buytickets.at/trianglebikecamping/1129836'
-			},
-			{
 				id: 'weekly-cruise-4',
 				title: 'Cruise: Bi-weekly Social Ride',
 				start: '2024-02-07T17:30:00',
@@ -90,6 +48,27 @@ document.addEventListener('DOMContentLoaded', function() {
 				start: '2024-03-20T18:00:00',
 				end: '2024-03-20T20:00:00',
 				url: 'https://buytickets.at/trianglebikecamping/1068381'
+			},
+			{
+				id: 'weekly-cruise-8',
+				title: 'Cruise: Bi-weekly Social Ride',
+				start: '2024-04-03T18:00:00',
+				end: '2024-04-03T20:00:00',
+				url: 'https://buytickets.at/trianglebikecamping/1068381'
+			},
+			{
+				id: 'weekly-cruise-9',
+				title: 'Cruise: Bi-weekly Social Ride',
+				start: '2024-04-17T18:00:00',
+				end: '2024-04-17T20:00:00',
+				url: 'https://buytickets.at/trianglebikecamping/1068381'
+			},
+			{
+				id: 'raleigh-clayton',
+				title: 'Cruise: Raleigh to Clayton',
+				start: '2024-03-30T11:00:00',
+				end: '2024-03-30T14:00:00',
+				url: 'https://www.tickettailor.com/events/trianglebikecamping/1200207?'
 			},
 			{
 				id: 'coastal',
